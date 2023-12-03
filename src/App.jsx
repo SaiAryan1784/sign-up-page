@@ -3,7 +3,7 @@ import person from './assets/people.png'
 
 const App = () => {
   return (
-    <div className='bg-slate-200 h-screen w-screen'>
+    <div className=' h-screen w-screen'>
       <div className='flex'>
         <div className='flex-[29%] bg-[#776B5D] h-screen rounded-e overflow-hidden z-2'>
           <h1 className='mt-[25%] ml-[5rem] text-4xl font-semibold'>Employee Management System</h1>
