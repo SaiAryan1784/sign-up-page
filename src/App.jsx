@@ -9,11 +9,11 @@ const App = () => {
           <h1 className='mt-[25%] ml-[5rem] text-4xl font-semibold'>Employee Management System</h1>
         </div>
 
-        <div className='flex-[73%] h-screen bg-[#DED0B6] items-center justify-center overflow-hidden z-1'>
+        <div className='flex-[73%] h-screen bg-[#DED0B6] items-center justify-center overflow-hidden z-1 '>
 
           <img src={person} alt="" className=' mx-auto mt-[5%] mb-8 h-[8rem]'/>
 
-          <div className="mx-auto bg-[#EBE3D5] p-4 rounded-lg h-[22rem] w-[24rem] mt-auto shadow-gray-600 shadow-md flex flex-col justify-between mb-8 border-black">
+          <div className="mx-auto bg-[#EBE3D5] p-4 rounded-lg h-[22rem] w-[24rem] mt-auto shadow-gray-600 shadow-md flex flex-col justify-between mb-8 border-black transition-transform duration-300 transform hover:scale-105">
 
               <h1 className='text-center text-3xl font-semibold mt-2'>LOGIN</h1>
 
